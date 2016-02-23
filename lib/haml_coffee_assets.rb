@@ -12,6 +12,7 @@ require 'haml_coffee_assets/compiler'
 require 'haml_coffee_assets/version'
 
 require 'haml_coffee_assets/tilt/template_handler'
+require 'haml_coffee_assets/processor'
 
 if defined?(Rails) && Rails.version >= '3.0.0'
   require 'rails'

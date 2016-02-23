@@ -2,8 +2,10 @@
 
 Please have a look at the [Haml Coffee Changelog](https://github.com/netzpirat/haml-coffee/blob/master/CHANGELOG.md) also.
 
-## Master
-
+## 1.17.0
+- Refactor sprockets 3.x compatibility to not break 2.x, start sprockets 4.x
+support, fix rails 5 warnings
+- merge https://github.com/netzpirat/haml_coffee_assets/issues/146
 - Update to Haml-Coffee 1.13.6
 - Add Sprockets 3.5 compatibility
 
