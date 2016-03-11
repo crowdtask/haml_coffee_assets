@@ -9,7 +9,7 @@ module HamlCoffeeAssets
     def self.call(input)
       context = input[:environment].context_class.new(input)
 
-      jst =  !!(input[:filename] || input[:source_path]).to_s =~ /\.jst\.hamlc(?:\.|$)/)
+      jst = !!( (input[:filename] || input[:source_path]).to_s =~ /\.jst\.hamlc(?:\.|$)/ )
 
       name = context.logical_path
 
